@@ -77,7 +77,7 @@ spring:
           contentType: application/json
 external:
   url:
-    point: http://point:8080
+    point: http://skccuser2-point:8080
 
 feign:
   hystrix:
