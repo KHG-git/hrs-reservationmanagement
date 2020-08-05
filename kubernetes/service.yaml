@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: Reservationmanagement
+  labels:
+    app: Reservationmanagement
+spec:
+  ports:
+    - port: 8080
+      targetPort: 8080
+  selector:
+    app: Reservationmanagement
